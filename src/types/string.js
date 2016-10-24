@@ -34,5 +34,5 @@ var moreStrict = /(.)*(world)$/i.test("hello World here");
 console.log("moreStrict : ",moreStrict);
 
 
-console.log("abc".substr(1,2)); // returns "bc" retourne a partir du deuxièeme élément
-console.log("abc".substring(1,2)); // returns "b" retourne le deuxième élément
+console.log("abcdef".substr(1,2)); // returns "bc" : return 2 elements (second parameter) the elements b and the one after b.
+console.log("abcdef".substring(1,2)); // returns "b" : substring  takes indices. You can remember because it's the only one with an 'i' in the name.
