@@ -36,3 +36,9 @@ console.log("moreStrict : ",moreStrict);
 
 console.log("abcdef".substr(1,2)); // returns "bc" : return 2 elements (second parameter) the elements b and the one after b.
 console.log("abcdef".substring(1,2)); // returns "b" : substring  takes indices. You can remember because it's the only one with an 'i' in the name.
+
+var phrase = "          AbCdEfGh          " ;
+console.log("",phrase.toLowerCase());
+console.log("", phrase.toUpperCase());
+console.log("", phrase.toLowerCase().toUpperCase().trim());
+
